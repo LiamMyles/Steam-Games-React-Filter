@@ -1,0 +1,42 @@
+{
+    "response": {
+      "game_count": 7,
+      "games": [
+        {
+          "appid": 4000,
+          "playtime_forever": 600,
+          "name": "Garry's Mod"
+        },
+        {
+          "appid": 7670,
+          "playtime_forever": 6000,
+          "name": "BioShock"
+        },
+        {
+          "appid": 409710,
+          "playtime_forever": 6000,
+          "name": "BioShock Remastered"
+        },
+        {
+          "appid": 12120,
+          "playtime_forever": 600000,
+          "name": "Grand Theft Auto: San Andreas"
+        },
+        {
+          "appid": 12250,
+          "playtime_forever": 600000,
+          "name": "Grand Theft Auto: San Andreas"
+        },
+        {
+          "appid": 20,
+          "playtime_forever": 0,
+          "name": "Team Fortress Classic"
+        },
+        {
+          "appid": 50,
+          "playtime_forever": 67,
+          "name": "Half-Life: Opposing Force"
+        }
+      ]
+    }
+  }

@@ -1,0 +1,187 @@
+/*
+white : #d6deeb
+black : #011627
+orange : #f78c6c
+yellow : #ecc48d
+red : #ff5874
+darkBlue : #4373c2
+lightBlue : #82aaff
+mutedBlue : #78ccf0
+teal : #7fdbca
+Green : #addb67
+pink : #c792ea
+
+*/
+
+:root {
+  --white: #d6deeb;
+  --lightBlack: #03233f;
+  --black: #011627;
+  --orange: #f78c6c;
+  --yellow: #ecc48d;
+  --red: #ff5874;
+  --darkBlue: #4373c2;
+  --lightBlue: #82aaff;
+  --mutedBlue: #78ccf0;
+  --teal: #7fdbca;
+  --Green: #addb67;
+  --pink: #c792ea;
+
+  --fontColour: var(--white);
+  --backgroundColor: var(--black);
+  --backgroundPattern: url(./assests/circuit-board.svg);
+
+  --standardPadding: 20px 25px 10px;
+  --standardMargin: 0 auto 25px;
+}
+
+body {
+  background-color: var(--backgroundColor);
+  background-image: var(--backgroundPattern);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p,
+label,
+h1,
+h2,
+h3 {
+  color: var(--fontColour);
+}
+
+a {
+  color: var(--orange);
+}
+
+*:focus {
+  box-shadow: 0 0 10px 3px var(--orange);
+}
+.steam-games__wrapper {
+  max-width: 500px;
+  min-width: 300px;
+  margin: 30px;
+}
+
+.steam-games__title {
+  text-align: center;
+  margin: 25px;
+}
+
+.steam-games__filter-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--lightBlack);
+  padding: var(--standardPadding);
+  border: 2px solid var(--darkBlue);
+  border-radius: 25px 25px 0 0;
+}
+
+.steam-games__filter-header h2 {
+  margin: 0;
+}
+
+.steam-games__filter-options {
+  background-color: var(--lightBlack);
+  padding: var(--standardPadding);
+  border: 2px solid var(--darkBlue);
+  border-top: 0;
+  border-radius: 0 0 25px 25px;
+}
+.steam-games__filter-options.hidden {
+  display: none;
+}
+
+.steam-games__filter-options > ul {
+  display: grid;
+  list-style: none;
+  grid-template-columns: 1fr minmax(200px, 400px) 1fr;
+  padding: 0;
+  margin: 0 auto 25px;
+  max-width: 400px;
+  justify-items: center;
+}
+
+.steam-games__filter-options li {
+  margin: 3px 0;
+  grid-column: 2;
+}
+
+.steam-games__filter-options h3 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.steam-games__filter-search {
+  display: grid;
+  grid-template-areas:
+    ". label ."
+    ". search .";
+
+  margin: 25px 0;
+}
+
+.steam-games__filter-search label {
+  grid-area: label;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.steam-games__filter-search input {
+  grid-area: search;
+}
+
+.steam-games__order-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.steam-games__order-list div {
+  min-width: 200px;
+  margin: 5px;
+  text-align: center;
+}
+.steam-games__order-list input {
+  margin: 0 0 0 10px;
+}
+
+.steam-games__games-list {
+  padding: 0;
+}
+
+.steam-games__games-list li {
+  list-style: none;
+  padding: 25px;
+  margin: 40px 0;
+  background-color: var(--lightBlack);
+  box-shadow: 0 0 5px 2px var(--darkBlue);
+  border: 1px solid var(--darkBlue);
+  border-radius: 25px;
+}
+
+.steam-games__games-list li h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.steam-games__games-list li img {
+  width: 100%;
+  height: auto;
+}
+
+.steam-games__pagination-buttons {
+  padding: 15px 25px;
+  border: 2px solid var(--darkBlue);
+  margin: 20px 0;
+  background-color: var(--lightBlack);
+  border-radius: 25px;
+}
+
+.steam-games__pagination-buttons p {
+  margin-top: 0;
+}
+
+.steam-games__pagination-buttons button {
+  margin: 0 10px 0 0;
+}

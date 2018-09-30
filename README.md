@@ -1,6 +1,6 @@
 # Steam Games React Filter
 
-THis project was started with Create react app
+This project was started with Create react app
 
 ## Reason for creating this project
 

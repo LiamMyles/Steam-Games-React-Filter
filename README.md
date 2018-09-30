@@ -1,12 +1,12 @@
 # Steam Games React Filter
 
-This project was started with Create react app
+My first complete react project, which was started with Create react app.
 
 ## Reason for creating this project
 
-This is my first finished project using react, that I used to improve my skills with react as well as my general design and css skills.
+This project was created to help improve my proficiency with react. As well as my general design and css skills.
 
-I also got to play around with the steam api which I'm hoping to use in future projects.
+I used it to play around with the steam api, which I'm hoping to use in future projects.
 
 ## Code Pen Example
 

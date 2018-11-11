@@ -2,6 +2,12 @@
 
 My first complete react project, which was started with Create react app.
 
+## Running the project
+
+Install the packages using either yarn `yarn` or npm `npm isntall`
+
+Once you have the packages installed you can run the project with yarn `yarn start` or npm `npm run start`
+
 ## Reason for creating this project
 
 This project was created to help improve my proficiency with react. As well as my general design and css skills.

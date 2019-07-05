@@ -89,6 +89,7 @@ const SteamGamesList = ({ gamesList, imgPath, imgType }) => (
         <a
           href={`https://store.steampowered.com/app/${appid}/`}
           target="_blank"
+          rel="noopener noreferrer"
         >
           {`Check out ${name} on Steam`}
         </a>
